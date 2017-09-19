@@ -29,9 +29,12 @@ func main() {
 				fmt.Println(colCell, "\t", readFile(colCell))
 
 			}
+
 		}
 
 	}
+
+	os.Exit(1)
 
 }
 
